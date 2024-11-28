@@ -1,0 +1,18 @@
+project:
+  type: book
+  output-dir: docs
+  execute-dir: project
+  post-render: _restore-dirs.R
+
+book:
+  title: "Quarton perusteet"
+  author: "Oliver Saal"
+  date: last-modified
+  chapters:
+    - index.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: superhero
