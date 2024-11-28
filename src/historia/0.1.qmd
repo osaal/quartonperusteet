@@ -1,0 +1,3 @@
+## Versio 0.1 {#sec-historia-0.1}
+
+-   Kirjan ensimmäinen julkaistu versio

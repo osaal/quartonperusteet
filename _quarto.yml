@@ -2,6 +2,8 @@ project:
   type: book
   output-dir: docs
   execute-dir: project
+  # HUOM: Post-render siirtää tiedostot takaisin paikalle.
+  # Ennen renderiä, aja _flatten-output.R
   post-render: _restore-dirs.R
 
 book:
@@ -10,9 +12,32 @@ book:
   date: last-modified
   chapters:
     - index.qmd
+    - part: "Quarton perusteet"
+    - part: "Kirjoittaminen Quartossa"
+    - part: "Quarto-projektit"
+    - part: "Kirjan metatiedot"
+      chapters:
+        - _paivityshistoria.qmd
+        - _tulossa.qmd
+    - lahteet.qmd
+  appendices:
+    - liite_markdown.qmd
+    - liite_zotero.qmd
+    - liite_git.qmd
+    - liite_rkieli.qmd
+    - liite_renv.qmd
+    - liite_projektit.qmd
+    - liite_shiny.qmd
 
 bibliography: references.bib
+
+# Kieli pitää laittaa ylätasolle, eikä format/html-tasolle
+# Ks. issue quarto-dev/quarto-cli#251
+lang: fi
 
 format:
   html:
     theme: superhero
+    
+execute:
+  freeze: true

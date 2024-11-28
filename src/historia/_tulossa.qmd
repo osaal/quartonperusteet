@@ -1,0 +1,36 @@
+# Tulevat päivitykset {#sec-tulossa}
+
+Koetan parhaimpani mukaan päivittää tätä osiota sekä omieni suunnitelmieni mukaan, että GitHubissa esiintyvien Issue- ja Discussion-artikkeleiden mukaan.
+
+Pienpäivityksissä (esim. tarkennukset, kielenhuolto), tarkistathan aina kuitenkin GitHub-repositorion ensin!
+
+## Tulevat luvut
+
+-   Mikä on Quarto?
+-   Miksi Quarto?
+-   Quarton käyttämisen haasteet
+-   Kirjan sisältö
+-   Esitiedot ja asennukset
+-   Lisäluettavaa
+-   Quarton asentaminen
+-   Esikatselu ja renderöinti
+-   YAML-metadata
+-   Sisällön uudelleenkäyttäminen
+-   Tieteellisen tekstin kirjoittaminen
+-   Ohjelmointikoodi Quartossa
+-   Julkaiseminen
+-   Projekti vai tavallinen tiedosto?
+-   Käsikirjoitukset
+-   Esitelmät
+-   Verkkosivut
+-   Blogit
+-   Kirjat
+-   Interaktiiviset dashboardit
+-   WebAssembly ja QuartoLive
+-   Liite: Markdownin perusteet
+-   Liite: Zotero ja Quarto
+-   Liite: Git ja GitHub
+-   Liite: R-kielen perusteet
+-   Liite: renv-järjestelmä
+-   Liite: Quarto-projektit
+-   Liite: Shiny-järjestelmä

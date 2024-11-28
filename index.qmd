@@ -1,3 +1,37 @@
-# Quarton perusteet
+# Etusivu {.unnumbered}
 
-Tähän tulee tekstiä.
+Tervetuloa **Quarton perusteet**-käsikirjan pariin!
+
+Kirjan tarkoitus on antaa lukijalle eväät tuottaa tutkimus- ja opetusmateriaalia käyttäen Quarto-järjestelmää.
+
+Voit tutustua kirjan sisältöön sivupalkista.
+
+## Kirjan käyttö ja kohdeyleisö
+
+Kirja on tarkoitettu ensisijaisesti tutkijoille ja akateemisille opettajille. Kirjan lukeminen ja Quarton oppiminen sen kautta ei oleta mitään osaamista ohjelmoinnista.
+
+Aloittelijoille kirjassa on useita liitelukuja, jotka sisältävät perustietoja Quarton käyttöön liittyvistä järjestelmistä ja ohjelmista.
+
+Uudelle lukijalle suosittelen ensin lukemaan *kokonaisuudessaan* ensimmäisen osion, **Quarton perusteet**. Luvussa (**ei vielä olemassa**) on tietoja myöhempien lukujen vaatimista esitiedoista. Olen pyrkinyt esittämään kaikki vaadittavat esitiedot liitelukuina, mutta puutteita voi olla.
+
+## Virheet ja ehdotukset
+
+Jos löydät virheitä tai haluat antaa sisältöehdotuksia, voit tehdä näin kirjan GitHub-sivulla. Linkki sivulle löytyy kirjan yläpalkista. GitHubissa voit:
+
+1.    Jättää virhehuomautuksen Issue-toiminnolla
+2.    Tehdä muutosehdotuksen Pull Request -toiminnolla
+3.    Kysyä tai keskustella kirjan sisällöstä Discussions-toiminnolla
+
+## Päivityshistoria
+
+Kirjan nykyinen versio on {{< var version >}}.
+
+Löydät kirjan versiohistorian [luvusta -@sec-paivityshistoria].
+
+## Kirjan lisenssi ja uudelleenkäyttö.
+
+Kirjan kaikki sisältö on lisenssoitu **MIT-lisenssillä**. Lisenssi antaa käyttäjälle täyden luvan käyttää kirjan sisältöä kaikissa muodoissa, maksullisissa tai ei-maksullisissa toiminnoissa, kunhan lopputuote on myönnetty eteenpäin samoilla lisenssiehdoilla.
+
+Voit siis vapaasti käyttää kirjan sisältöä osana opetusta, julkaisuja, omaa työtäsi tai vaikkapa kaupallisessa tarkoituksessa -- kunhan lopputuotteesi myös noudattaa MIT-lisenssiä.
+
+Tarkka lisenssiteksti löytyy GitHubista kirjan lähdekoodista, tiedostosta "LICENCE.md".
