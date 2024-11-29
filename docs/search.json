@@ -50,8 +50,8 @@
     ]
   },
   {
-    "objectID": "_paivityshistoria.html",
-    "href": "_paivityshistoria.html",
+    "objectID": "paivityshistoria.html",
+    "href": "paivityshistoria.html",
     "title": "1  Päivityshistoria",
     "section": "",
     "text": "1.1 Versio 0.1",
@@ -61,8 +61,8 @@
     ]
   },
   {
-    "objectID": "_paivityshistoria.html#sec-historia-0.1",
-    "href": "_paivityshistoria.html#sec-historia-0.1",
+    "objectID": "paivityshistoria.html#sec-historia-0.1",
+    "href": "paivityshistoria.html#sec-historia-0.1",
     "title": "1  Päivityshistoria",
     "section": "",
     "text": "Kirjan ensimmäinen julkaistu versio",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "objectID": "_tulossa.html",
-    "href": "_tulossa.html",
+    "objectID": "tulossa.html",
+    "href": "tulossa.html",
     "title": "2  Tulevat päivitykset",
     "section": "",
     "text": "2.1 Tulevat luvut\nKoetan parhaimpani mukaan päivittää tätä osiota sekä omieni suunnitelmieni mukaan, että GitHubissa esiintyvien Issue- ja Discussion-artikkeleiden mukaan.\nPienpäivityksissä (esim. tarkennukset, kielenhuolto), tarkistathan aina kuitenkin GitHub-repositorion ensin!",
@@ -83,8 +83,8 @@
     ]
   },
   {
-    "objectID": "_tulossa.html#tulevat-luvut",
-    "href": "_tulossa.html#tulevat-luvut",
+    "objectID": "tulossa.html#tulevat-luvut",
+    "href": "tulossa.html#tulevat-luvut",
     "title": "2  Tulevat päivitykset",
     "section": "",
     "text": "Mikä on Quarto?\nMiksi Quarto?\nQuarton käyttämisen haasteet\nKirjan sisältö\nEsitiedot ja asennukset\nLisäluettavaa\nQuarton asentaminen\nEsikatselu ja renderöinti\nYAML-metadata\nSisällön uudelleenkäyttäminen\nTieteellisen tekstin kirjoittaminen\nOhjelmointikoodi Quartossa\nJulkaiseminen\nProjekti vai tavallinen tiedosto?\nKäsikirjoitukset\nEsitelmät\nVerkkosivut\nBlogit\nKirjat\nInteraktiiviset dashboardit\nWebAssembly ja QuartoLive\nLiite: Markdownin perusteet\nLiite: Zotero ja Quarto\nLiite: Git ja GitHub\nLiite: R-kielen perusteet\nLiite: renv-järjestelmä\nLiite: Quarto-projektit\nLiite: Shiny-järjestelmä",

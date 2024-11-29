@@ -17,8 +17,8 @@ book:
     - part: "Quarto-projektit"
     - part: "Kirjan metatiedot"
       chapters:
-        - _paivityshistoria.qmd
-        - _tulossa.qmd
+        - paivityshistoria.qmd
+        - tulossa.qmd
     - lahteet.qmd
   appendices:
     - liite_markdown.qmd
