@@ -1,4 +1,3 @@
-### POST-RENDER
 # Find .qmd files to move back into original paths
 moved_files <-
   fs::dir_ls(type = "file") |>

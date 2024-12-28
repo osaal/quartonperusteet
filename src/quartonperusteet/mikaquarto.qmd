@@ -1,0 +1,104 @@
+# Mikä Quarto? {#sec-mikaquarto}
+
+> Kirjoitin artikkelini APA-muodossa, mutta tähtäämäni aikakauslehti ei hyväksynyt artikkelia, ja uusi lehti vaatiin ASA-muodon. Kai minun pitää muuttaa kaikki viitteet ja muotoilu...
+
+> Kolmas esitys tulossa uudesta tutkimuksestani. Hitsi, kun kuviot ovat muuttuneet, muuten voisin käyttää samaa esitystä kuin aikaisemmin...
+
+> Haluaisin tehdä akateemisen verkkosivun itselleni, mutta Wordpress näyttää könköltä enkä haluaisi maksaa Squarespace-tilauksesta...
+
+> Taas on vuosiraportin aika; sama muoto, eri luvut. Jos vain pääsisi eroon tästä iänikuisesta kopioinnista...
+
+Kuulostaako jokin näistä tilanteista tutulta? Mitä jos sanoisin, että kaikki nämä voidaan ratkaista yhdellä järjestelmällä -- Quartolla!
+
+Ratkaisu kuulostaa ehkä liian helpolta, ja osittain se onkin: tämän kirjan avulla tarjoan oppeja järjestelmästä, joka mahdollistaa kaikkien yllä olevien tilanteiden ratkaisun, mutta joka vaatii hieman opiskelua.
+
+[Quarto](https://quarto.org/) on akateemisen ja teknisen tekstin kirjoitusjärjestelmä. Pohjimmillaan Quartossa on yksi idea: kirjoita kerran, julkaise useasti. Voit kirjoittaa Word-tiedoston artikkelillesi, jakaa PDF-tiedoston aikakauslehdelle, kopioida tiedot PowerPoint-tiedostoon esitystä varten ja niin eteenpäin, tai voit kirjoittaa kaiken yhteen Quarto-tiedostoon ja julkaista napinpainalluksella kaikkiin muotoihin vaikka samanaikaisesti.
+
+Quarto pystyy hyvin monenlaiseen eri julkaisumuotoon, esimerkiksi:
+
+-   Word- ja OpenOffice-tiedostot
+-   PowerPoint-esitelmät
+-   PDF-tiedosto
+-   Verkkosivu tai blogi (HTML-tiedosto)
+-   Wiki-sivusto
+-   InDesign-tiedostot
+-   EPUB-e-kirjat
+-   ja monia muita...
+
+Esimerkiksi tämä verkkokirja on kirjoitettu Quartossa!
+
+Quartossa on myös toinen erinomainen käyttömahdollisuus: voit upottaa ohjelmointikoodia suoraan tekstiin. Tämä tarkoittaa, ettet enää tarvitse kopioida kuvioita Excelistä, SPSS:stä tai muista ohjelmista kirjoituksiisi -- kaikki analyysit ja kuviot pysyvät tekstissä mukana.
+
+Jos analyysisi muuttuu (esimerkiksi, jos huomaat virheen analyysissa tai päivität datalähteen), voit päivittää kaiken analyysidokumentoinnin samanaikaisesti, mukaan lukien itse tekstin. Jos esimerkiksi tuotat työksesi vuosi-, kuukausi- tai kvartaaliraportteja, pystyt tekemään uuden version yksinkertaisimmillaan vain vaihtamalla datatiedoston ja renderöimällä Quarto-tiedoston uudelleen.
+
+Quarto on myös ilmainen. Kyllä, täysin ilmainen! Käyttääksesi Quartoa tarvitset käytännössä vain Quarton asennuksen sekä tekstinkäsittelyohjelman. Käyttöjärjestelmäsi sisäänrakennettu tekstinkäsittelyohjelma (esimerkiksi Windowsin Muistio) riittää -- mutta parempiakin työkaluja on saatavilla.
+
+Quarto-tiedostojen muokkaaminen on vain tekstin kirjoittamista, eli käytännössä mikä tahansa laite ja järjestelmä voi avata ja muokata Quarton tiedostoja. Tekstiä kirjoitetaan Quarton omalla Markdown-kielellä. Ennen kuin panikoit: ei, kyseessä ei ole hankala ohjelmointikieli omine temppuineen, vaan simppeli tapa tehdä tekstimuotoilua käyttäen erilaisia symboleja.
+
+Mutta jos kerran Quarto on niin maaginen ja mahtava, miksi kaikki eivät jo käytä sitä? 
+
+## Quarton käyttämisen haasteet {#sec-mikaquarto-haasteet}
+
+Valehtelisin, jos väittäisin Quarton aloittamisen olevan nykypäivänä helppoa. Quarton dokumentointi on repaleista, osittain puutteellista, ja aloittelijalle haasteellista ymmärtää -- varsinkin, jos aloittelija tulee Microsoft Office -paketin kaltaisesta maailmasta.
+
+Quarto-järjestelmä on niin sanottu *komentokehotejärjestelmä* (engl. *command-line interface*, CLI). Tämä tarkoittaa, että Quartolla ei ole omaa käyttöliittymää, vaan sitä käytetään komentokehotteen (terminaalin) kautta. Jos olet aikoinaan käyttänyt esimerkiksi DOS-käyttöjärjestelmää, SPSS:n serveriasennusta yliopistollasi tai jopa Linux-järjestelmiä, olet tutustunut terminaaliin aikaisemmin. Jos et ole, terminaalin musta tausta ja tekstipohjaisuus voi ensisilmäisyllä näyttää IKT-velhon magialta.
+
+Mainitsin, että Quarton dokumentointi on repaleista. Kaikki dokumentointi on saatavilla Quarton kotisivuilla, mutta sen lukeminen ja varsinkin ymmärtäminen on raskasta peruskäyttäjälle, joka vain haluaa kirjoittaa tekstidokumentin. Olen itse käyttänyt Quartoa reilu kaksi vuotta, enkä vielä täysin osaa liikkua dokumentointisivujen välillä, saatikka löytää etsimääni tietoa niiltä.
+
+Quartossa on myös hämäävä puoli: vaikka sanoinkin Quarton toimivan yksinkertaisimmillaan vain Quarto-asennuksella ja tekstinkäsittelyohjelmalla, todellisuudessa Quarton käyttöön tieteellisen tekstin kirjoittamisessa tarvitaan useita eri, elämää ja työtä helpottavia työkaluja. Näiden työkalujen löytäminen, oppiminen ja konfigurointi nostaa luonnollisesti uuden käyttäjän kynnystä, varsinkin kuin esimerkiksi Microsoft Office -paketti jo sisältää kaikki tarvittavat työkalut yhdessä asennuksessa.
+
+Näiden ongelmien takia päätin kirjoittaa tämän kirjan. Kirjan tarkoituksena on antaa aloittelijalle kaikki tarvittavat ohjeet ja työkalut päästääkseen käyntiin Quarton kanssa. Sanalla "käyntiin" tarkoitan todellista tieteellisen tekstin tuottamista, en vain irrallisia harjoituksia ja pientöitä. Jos lukijana käyt läpi koko kirjan, pystyt toivottavasti kirjoittamaan kokonaisia tutkimusartikkeleita (mukaan lukien tilastolliset analyysit!), konferenssiesitelmiä tai verkkokirjoja alusta loppuun.
+
+## Kirjan sisältö {#sec-mikaquarto-sisalto}
+
+Kirja on jaettu kolmeen sisältöosioon:
+
+1.    Quarton perusteet
+2.    Kirjoittaminen Quartossa
+3.    Quarto-projektit
+
+Osiot 1-3 ovat järjestetty haasteellisuuden mukaan. Ensimmäinen osio käsittelee tärkeitä perustietoja Quarton asennuksesta ja käytöstä, ja osion lopussa osaat renderöidä Quartossa kirjoitetun tiedoston esimerkiksi Word-tiedostoksi. Toinen osio käsittelee Quarto-kirjoittamisen yksityiskohtia, kuten viittaamista, formatointia, koodin käyttöä tekstissä, taulukoiden ja kuvien lisäämistä, sekä tekstin julkaisua verkkoon omaksi verkkosivuksi. Kolmannessa osiossa hypätään syvemmälle Quarton mahdollisuuksiin ja käsitellään Quarto-projekteja, eli usean Quarto-tiedoston kokoelmia. Osiossa käyn myös läpi yleisimmät Quarton käyttötarkoitukset: akateemiset käsikirjoitukset, esitelmät, verkkosivut ja blogit sekä dashboardit.
+
+Osiot vaativat eriäviä taustatietoja. Kirjan kohdeyleisönä on lukijat, jotka eivät ole käyttäneet juurikaan muuta kuin Office-paketin ohjelmia (Word, PowerPoint, Excel...). Jotta lukijalla varmasti on tarvittavat taustatiedot, olen lisännyt useita liitelukuja kirjaan, jotka käsittelevät eri ohjelmien ja käytäntöjen perustietoja. Jokaisessa luvussa mainitaan erikseen vaadittavat taustatiedot, joten varmista lukijana aina, että ymmärrät esitiedot ennen kuin hyppäät syvään päätyyn. Mikään ei ole yhtä hermostuttavaa kuin luetun ymmärrättömyys, koska sinulta puuttuu tarvittavia esitietoja!
+
+## Esitiedot ja asennukset {#sec-mikaquarto-esitiedot}
+
+Kuten jo mainitsin useampaan otteeseen, Quarton käyttöön tarvitaan vähintään Quarto-asennus sekä tekstinkäsittelyohjelma. Kuitenkin käyttö helpottuu huomattavasti, jos käytetään muitakin työkaluja.
+
+Tässä kirjassa tulen käsittelemään seuraavia työkaluja:
+
+-   Quarto CLI -asennus (luonnollisesti...)
+-   R-ohjelmointikieli
+-   RStudio-ohjelma
+-   Markdown-kirjoituskieli ja Quarton erityispiirteet
+-   Zotero-viitehallintajärjestelmä
+-   Git-versionhallintajärjestelmä ja GitHub-verkkopalvelu
+
+Määrä voi pelottaa, mutta älä hätäänny! Luvuissa ja liitteissä käsittelen vain ne osuudet, jotka tarvitaan Quarton toimivaan ja tehokkaaseen käyttöön. Kirja ei siis käy läpi R-kielen kaikkia salaisuuksia, Git-järjestelmän erikoisuuksia tai muita vastaavia asioita. Näitä varten suosittelen useita eri ilmaisia verkkokirjoja, mutta niiden lukeminen ei ole vaadittua tämän kirjan lukemiseen.
+
+Huomioi kuitenkin, että Quarton käyttöön sinulla pitää olla oikeus asentaa ohjelmia laitteellesi, tai mahdollisuus pyytää järjestelmänvalvojaa asentamaan ohjelmia. Voit toki lukea kirjan sellaisenaan, mutta suosittelen erittäin lämpimästi kirjan esimerkkien seuraamista omalla laitteellasi. Niissä kohdissa, joissa käyttöjärjestelmät eroavat, kuvailen aina Windowsin, Mac OSX:n sekä Linuxin erityispiirteet. Yleisesti ottaen tarvitset vain tietokoneen (puhelin ei riitä!), verkkoyhteyden sekä avoimen mielen.
+
+## Lisäluettavaa {#sec-mikaquarto-lisaluettavaa}
+
+Yhdessä kirjassa en voi käsitellä kaikkien järjestelmien kaikkia eri yksityiskohtia. Siksi suosittelen tutustumaan lisätietoihin muualla. Alla on joitain ilmaisia kirja- ja ohjevinkkejä eri järjestelmille:
+
+-   Quarton dokumentaatio löytyy osoitteesta [quarto.org](https://quarto.org/)
+    -   [Get Started](https://quarto.org/docs/get-started/) -osio avustaa Quarton asentamisessa ja aloituksessa
+    -   [Guide](https://quarto.org/docs/guide/) -osio kuvailee, miten Quarton eri osuudet toimivat
+    -   [Reference](https://quarto.org/docs/reference/) -osio listaa kaikki Quarton käyttämät YAML-asetukset
+-   R-kielen peruskäyttöön suosittelen Hadley Wickhamin ja kollegoiden  [R for Data Science](https://r4ds.hadley.nz/) -kirjaa
+-   Kuvioiden piirtämiseen Tidyversen `ggplot2`-paketilla suosittelen Hadley Wickhamin ja kollegoiden [ggplot2: elegant graphics for data analysis](https://ggplot2-book.org/) -kirjaa
+-   Markdown-kielen kirjoittamisen alkeisiin suosittelen [Markdown Guide](https://www.markdownguide.org/) -kirjaa
+-   Markdownin kirjoittamiseen voit käyttää selainpohjaista kirjoitusalustaa (joskin suosittelen kirjoittamista esimerkiksi RStudiossa). Vaihtoehtoja on useita, joista suosittelen esimerkiksi [Markde](https://markde.netlify.app/) -alustaa. Voit ladata kirjoittamasi Markdown-tiedoston tietokoneellesi suoraan alustalta ilman kirjautumista.
+    -   HUOM: Markde-alusta suosii GitHubin Markdown-versiota, mikä poikkeaa hieman perinteisestä Markdownista. Voit vaihtaa Github Flavoured Markdown- ja Markdown-kielten välillä sivuston yläoikeasta painikkeesta.
+-   Git-järjestelmän käyttöön löytyy myös useita eri ohjeita.
+    -   [git - the simple guide](https://rogerdudler.github.io/git-guide/) kuvailee Gitin peruskäytön hyvin yksinkertaisesti ja visuaalisesti
+    -   [Gitin manuaali](https://git-scm.com/docs/user-manual.html) käy läpi toimintoja tarkemmin, mutta on hieman haasteellisempi luettavaksi
+    -   [Happy Git and GitHub for the useR](https://happygitwithr.com/) käsittelee Gitin ja GitHubin käyttöä R-kielen ja RStudion näkökulmasta. Kirja kattaa kaiken aloituksesta erinäisiin haasteellisiin tilanteisiin, joita voi esiintyä -- iso suositus!
+-   Zoteron käyttöön voit tutustua Helsingin yliopiston kirjaston [Zotero-ohjeista](https://libraryguides.helsinki.fi/viitteidenhallinta/zotero)
+    -   Zoterolla on myös oma [Quick Start Guide](https://www.zotero.org/support/quick_start_guide)
+-   RStudion peruskäyttöön voit seurata [Datacampin ohjetta](https://www.datacamp.com/tutorial/r-studio-tutorial)
+-   Shinyn käyttöä voit oppia Hadley Wickhamin [Mastering Shiny](https://mastering-shiny.org/) -kirjasta
+
+Suurin resurssi on kuitenkin aina googlaaminen, jos (kun) jäät jumiin! Ongelmia ratkotaan useilla eri foorumeilla verkossa, kuten Redditissä, StackOverflow'ssa sekä Githubissa.
+

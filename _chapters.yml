@@ -1,0 +1,20 @@
+chapters:
+  - part: "Quarton perusteet"
+    chapters:
+      - mikaquarto.qmd
+  - part: "Kirjoittaminen Quartossa"
+  - part: "Quarto-projektit"
+  - part: "Kirjan metatiedot"
+    chapters:
+      - paivityshistoria.qmd
+      - tulossa.qmd
+  - lahteet.qmd
+  
+appendices:
+  - liite_markdown.qmd
+  - liite_zotero.qmd
+  - liite_git.qmd
+  - liite_rkieli.qmd
+  - liite_renv.qmd
+  - liite_projektit.qmd
+  - liite_shiny.qmd

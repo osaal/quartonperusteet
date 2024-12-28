@@ -1,0 +1,39 @@
+project:
+  type: "book"
+  output-dir: "docs"
+  execute-dir: "project"
+  pre-render: "R/_insert-chapter-yaml.R"
+  post-render:
+  - "R/_restore-dirs.R"
+  - "R/_restore-yaml.R"
+book:
+  title: "Quarton perusteet"
+  author: "Oliver Saal"
+  date: "last-modified"
+  chapters:
+  - index.qmd
+  - part: "Quarton perusteet"
+    chapters: "mikaquarto.qmd"
+  - part: "Kirjoittaminen Quartossa"
+  - part: "Quarto-projektit"
+  - part: "Kirjan metatiedot"
+    chapters:
+    - "paivityshistoria.qmd"
+    - "tulossa.qmd"
+  - "lahteet.qmd"
+  appendices:
+  - "liite_markdown.qmd"
+  - "liite_zotero.qmd"
+  - "liite_git.qmd"
+  - "liite_rkieli.qmd"
+  - "liite_renv.qmd"
+  - "liite_projektit.qmd"
+  - "liite_shiny.qmd"
+bibliography: "references.bib"
+lang: "fi"
+format:
+  html:
+    theme: "superhero"
+execute:
+  freeze: true
+
